@@ -9,7 +9,7 @@ const routes = {
                     <ul class="notice-list">
                         <li class="notice-item">
                             <span class="new-badge">NEW</span>
-                            <a href="#">Gazette Notification of Nagar Panchayat Godhani.pdf</a>
+                            <a href="https://godhani.netlify.app/">Happy Street Event Successfully Organized in Godhani</a>
                         </li>
                         <li class="notice-item">
                             <span class="new-badge">NEW</span>
@@ -23,7 +23,7 @@ const routes = {
                 <div class="glass-card">
                     <h3>Administrative Head</h3>
                     <div class="officer-profile" style="text-align: center; margin-top: 20px;">
-                        <div class="profile-img-placeholder" style="width: 120px; height: 120px; background: #eee; border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #ccc;">👤</div>
+                        <div class="profile-img-placeholder" style="width: 120px; height: 120px; background: #eee; border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #ccc;"><img src="profile img.jpeg" alt="profile_image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
                         <h4 style="color: var(--primary); font-size: 1.2rem;">Mr. Sahil S. Chaple</h4>
                         <p style="font-size: 0.9rem; color: #666;">Administrator / Chief Officer</p>
                     </div>
