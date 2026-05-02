@@ -9,7 +9,7 @@ const routes = {
                     <ul class="notice-list">
                         <li class="notice-item">
                             <span class="new-badge">NEW</span>
-                            <a href="#">Gazette Notification of Nagar Panchayat Besa Pipla.pdf</a>
+                            <a href="#">Gazette Notification of Nagar Panchayat Godhani.pdf</a>
                         </li>
                         <li class="notice-item">
                             <span class="new-badge">NEW</span>
@@ -24,14 +24,14 @@ const routes = {
                     <h3>Administrative Head</h3>
                     <div class="officer-profile" style="text-align: center; margin-top: 20px;">
                         <div class="profile-img-placeholder" style="width: 120px; height: 120px; background: #eee; border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #ccc;">👤</div>
-                        <h4 style="color: var(--primary); font-size: 1.2rem;">Mr. Bharat B. Nandanwar</h4>
+                        <h4 style="color: var(--primary); font-size: 1.2rem;">Mr. Sahil S. Chaple</h4>
                         <p style="font-size: 0.9rem; color: #666;">Administrator / Chief Officer</p>
                     </div>
                 </div>
             </div>
             <div class="glass-card" style="margin-top: 30px;">
                 <h3>Mission Statement</h3>
-                <p>To provide high-quality urban infrastructure and services to the residents of Besa Pipla, ensuring a sustainable and prosperous environment for all. We strive for transparency, efficiency, and citizen-centric governance.</p>
+                <p>To provide high-quality urban infrastructure and services to the residents of Godhani, ensuring a sustainable and prosperous environment for all. We strive for transparency, efficiency, and citizen-centric governance.</p>
             </div>
         `
     },
@@ -44,7 +44,7 @@ const routes = {
                 <p>Details about the administrative structure and key officials of the Nagar Panchayat.</p>
                 <ul class="notice-list" style="margin-top: 20px;">
                     <li class="notice-item"><strong>President:</strong> Elected Representative</li>
-                    <li class="notice-item"><strong>Chief Officer:</strong> Mr. Bharat B. Nandanwar</li>
+                    <li class="notice-item"><strong>Chief Officer:</strong> Mr. Sahil S. Chaple</li>
                     <li class="notice-item"><strong>Department Heads:</strong> Engineering, Health, Finance</li>
                 </ul>
             </div>
@@ -145,7 +145,7 @@ const routes = {
             <div class="card-grid">
                 <div class="glass-card">
                     <h3>Our Mission</h3>
-                    <p>To transform Besa Pipla into a model Nagar Panchayat through sustainable development and citizen participation.</p>
+                    <p>To transform Godhani into a model Nagar Panchayat through sustainable development and citizen participation.</p>
                 </div>
                 <div class="glass-card">
                     <h3>Ongoing Projects</h3>
@@ -163,12 +163,12 @@ const routes = {
 function navigate() {
     const hash = window.location.hash.substring(1) || 'home';
     const route = routes[hash] || routes['home'];
-    
+
     const contentArea = document.getElementById('content-area');
-    
+
     // Loading transition
     contentArea.style.opacity = '0';
-    
+
     setTimeout(() => {
         contentArea.innerHTML = route.content;
         contentArea.style.opacity = '1';
