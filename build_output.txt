@@ -1,0 +1,126 @@
+﻿[36mvite v8.1.5 [32mbuilding client environment for production...[36m[39m
+[2K
+transforming...Γ£ô 2290 modules transformed.
+node.exe : [31mΓ£ù[39m 
+Build failed in 761ms
+At C:\Users\Hp\OneDrive\De
+sktop\rinex\Website_godhan
+i\node_modules\.bin\vite.p
+s1:24 char:5
++     & "node$exe"  "$base
+dir/../vite/bin/vite.js" 
+$args
++     ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo        
+      : NotSpecified: (  
+  [31mΓ£ù[39m Build fa   
+ iled in 761ms:String)    
+ [], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+[31merror during build:
+[31mBuild failed with 1 
+error:
+
+[plugin vite:css] C:/Users
+/Hp/OneDrive/Desktop/rinex
+/Website_godhani/src/index
+.css
+Failed to load PostCSS 
+config: Failed to load 
+PostCSS config 
+(searchPath: C:/Users/Hp/O
+neDrive/Desktop/rinex/Webs
+ite_godhani): [Error] 
+Loading PostCSS Plugin 
+failed: Cannot find 
+module 'autoprefixer'
+Require stack:
+- C:\Users\Hp\OneDrive\Des
+ktop\rinex\Website_godhani
+\postcss.config.js
+
+(@C:\Users\Hp\OneDrive\Des
+ktop\rinex\Website_godhani
+\postcss.config.js)
+Error: Loading PostCSS 
+Plugin failed: Cannot 
+find module 'autoprefixer'
+Require stack:
+- C:\Users\Hp\OneDrive\Des
+ktop\rinex\Website_godhani
+\postcss.config.js
+
+(@C:\Users\Hp\OneDrive\Des
+ktop\rinex\Website_godhani
+\postcss.config.js)
+    at load (file:///C:/Us
+ers/Hp/OneDrive/Desktop/ri
+nex/Website_godhani/node_m
+odules/vite/dist/node/chun
+ks/node.js:21486:10)
+    at async Promise.all 
+(index 1)
+    at async plugins (file
+:///C:/Users/Hp/OneDrive/D
+esktop/rinex/Website_godha
+ni/node_modules/vite/dist/
+node/chunks/node.js:21508:
+11)
+    at async 
+processResult (file:///C:/
+Users/Hp/OneDrive/Desktop/
+rinex/Website_godhani/node
+_modules/vite/dist/node/ch
+unks/node.js:21546:13)[31
+m
+    at aggregateBindingErr
+orsIntoJsError (file:///C:
+/Users/Hp/OneDrive/Desktop
+/rinex/Website_godhani/nod
+e_modules/rolldown/dist/sh
+ared/error-BHRSI0R7.mjs:48
+:18)
+    at 
+unwrapBindingResult (file:
+///C:/Users/Hp/OneDrive/De
+sktop/rinex/Website_godhan
+i/node_modules/rolldown/di
+st/shared/error-BHRSI0R7.m
+js:18:128)
+    at #build (file:///C:/
+Users/Hp/OneDrive/Desktop/
+rinex/Website_godhani/node
+_modules/rolldown/dist/sha
+red/rolldown-build-CtPvmZg
+J.mjs:3276:34)
+    at async 
+buildEnvironment (file:///
+C:/Users/Hp/OneDrive/Deskt
+op/rinex/Website_godhani/n
+ode_modules/vite/dist/node
+/chunks/node.js:33061:66)
+    at async Object.build 
+(file:///C:/Users/Hp/OneDr
+ive/Desktop/rinex/Website_
+godhani/node_modules/vite/
+dist/node/chunks/node.js:3
+3483:19)
+    at async 
+Object.buildApp (file:///C
+:/Users/Hp/OneDrive/Deskto
+p/rinex/Website_godhani/no
+de_modules/vite/dist/node/
+chunks/node.js:33480:153)
+    at async 
+CAC.<anonymous> (file:///C
+:/Users/Hp/OneDrive/Deskto
+p/rinex/Website_godhani/no
+de_modules/vite/dist/node/
+cli.js:776:3) {
+  errors: [Getter/Setter]
+}[39m
