@@ -59,7 +59,7 @@ export default function AboutPage() {
               </div>
             </div>
             
-            <div className="relative h-64 lg:h-auto">
+            <div className="relative h-64 md:h-96 lg:h-auto">
               <img 
                 src="https://images.unsplash.com/photo-1621360841013-c76831fdbcf5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
                 alt="Godhani Railway Station / Town" 

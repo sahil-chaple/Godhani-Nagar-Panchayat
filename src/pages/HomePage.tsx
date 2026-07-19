@@ -38,7 +38,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* ─── Hero Section ─── */}
-      <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[90dvh] md:min-h-0 md:h-[600px] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center scale-105"
           style={{
@@ -55,13 +55,13 @@ export default function HomePage() {
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <p className="text-base md:text-lg font-medium mb-2 opacity-80 tracking-widest uppercase">
+            <p className="text-base md:text-lg font-medium mb-2 opacity-80 tracking-widest uppercase mt-12 md:mt-0">
               Welcome to
             </p>
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
               Godhani Nagar<br />Panchayat
             </h1>
-            <p className="text-lg md:text-xl mb-8 opacity-85 max-w-2xl">
+            <p className="text-base sm:text-lg md:text-xl mb-8 opacity-85 max-w-2xl">
               Building a Clean, Green &amp; Digital Future — Together for a Developed Godhani.
             </p>
 

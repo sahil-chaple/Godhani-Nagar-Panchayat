@@ -175,7 +175,7 @@ export default function ContactPage() {
         </div>
 
         {/* Map Area */}
-        <div className="bg-white rounded-3xl p-3 shadow-sm border border-gray-100 h-[400px] overflow-hidden relative">
+        <div className="bg-white rounded-3xl p-2 sm:p-3 shadow-sm border border-gray-100 h-[300px] lg:h-[400px] overflow-hidden relative">
            <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14878.892015091724!2d79.035418!3d21.20317515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0e62ea6b565%3A0xe5a1bdfd94d3ae14!2sGodhani%2C%20Nagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
             width="100%" 

@@ -68,7 +68,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-lg border-t absolute w-full">
+        <div className="md:hidden bg-white shadow-lg border-t absolute w-full left-0 top-full z-[100]">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {links.map((link) => (
               <Link
