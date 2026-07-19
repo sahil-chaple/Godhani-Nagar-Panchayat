@@ -61,7 +61,7 @@ export default function PropertyTaxPage() {
             Search Property
           </div>
           <div className="p-6">
-            <form onSubmit={handleSubmit(onSearch)} className="flex flex-col md:flex-row gap-4 items-start">
+            <form onSubmit={handleSubmit(onSearch)} className="flex flex-row gap-4 items-start">
               <div className="flex-1 w-full">
                 <input 
                   type="text" 
@@ -89,7 +89,7 @@ export default function PropertyTaxPage() {
               </div>
               <button 
                 type="submit"
-                className="w-full md:w-auto px-8 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg font-medium transition-colors flex items-center justify-center shrink-0"
+                className="w-auto px-8 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg font-medium transition-colors flex items-center justify-center shrink-0"
               >
                 Search
               </button>
@@ -109,7 +109,7 @@ export default function PropertyTaxPage() {
               <div className="p-8">
                 <h3 className="text-xl font-bold text-gray-900 mb-6 border-b pb-4">Property Details</h3>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-2 gap-8">
                   <div className="space-y-4">
                     <div className="flex justify-between border-b border-gray-100 pb-2">
                       <span className="text-gray-500 font-medium">Property ID</span>

@@ -50,7 +50,7 @@ export default function SchemesPage() {
           <p className="text-gray-600 max-w-2xl mx-auto">Explore various state and central government initiatives, schemes, and programs available for the citizens of Godhani.</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-3 gap-8">
           {schemes.map((scheme, index) => (
             <motion.div
               key={scheme.title}

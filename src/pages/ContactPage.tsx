@@ -41,9 +41,9 @@ export default function ContactPage() {
           <p className="text-gray-600">Get in touch with us for any inquiries, feedback, or support.</p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-3 gap-8 mb-12">
           {/* Contact Details */}
-          <div className="lg:col-span-1 bg-white rounded-3xl p-8 shadow-sm border border-gray-100 flex flex-col h-full">
+          <div className="col-span-1 bg-white rounded-3xl p-8 shadow-sm border border-gray-100 flex flex-col h-full">
             <h2 className="text-2xl font-bold text-gray-900 mb-8">Office Info</h2>
             
             <div className="space-y-6 flex-grow">
@@ -95,7 +95,7 @@ export default function ContactPage() {
           </div>
 
           {/* Contact Form */}
-          <div className="lg:col-span-2 bg-white rounded-3xl p-8 lg:p-10 shadow-sm border border-gray-100 relative overflow-hidden">
+          <div className="col-span-2 bg-white rounded-3xl p-8 p-10 shadow-sm border border-gray-100 relative overflow-hidden">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a message</h2>
             
             <AnimatePresence>
@@ -115,7 +115,7 @@ export default function ContactPage() {
             </AnimatePresence>
 
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
                   <input 
@@ -162,7 +162,7 @@ export default function ContactPage() {
               <button 
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full sm:w-auto px-8 py-3.5 bg-primary hover:bg-primary-dark text-white rounded-xl font-semibold transition-colors flex items-center justify-center disabled:opacity-70 disabled:cursor-not-allowed"
+                className="w-auto px-8 py-3.5 bg-primary hover:bg-primary-dark text-white rounded-xl font-semibold transition-colors flex items-center justify-center disabled:opacity-70 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? 'Sending...' : (
                   <>
@@ -175,7 +175,7 @@ export default function ContactPage() {
         </div>
 
         {/* Map Area */}
-        <div className="bg-white rounded-3xl p-2 sm:p-3 shadow-sm border border-gray-100 h-[300px] lg:h-[400px] overflow-hidden relative">
+        <div className="bg-white rounded-3xl p-3 shadow-sm border border-gray-100 h-[400px] overflow-hidden relative">
            <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14878.892015091724!2d79.035418!3d21.20317515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0e62ea6b565%3A0xe5a1bdfd94d3ae14!2sGodhani%2C%20Nagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
             width="100%" 

@@ -60,9 +60,9 @@ export default function AdministrationPage() {
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4 }}
-              className="flex flex-col md:flex-row"
+              className="flex flex-row"
             >
-              <div className="md:w-1/3 bg-gray-50 p-8 flex flex-col items-center justify-center border-r border-gray-100">
+              <div className="w-1/3 bg-gray-50 p-8 flex flex-col items-center justify-center border-r border-gray-100">
                 <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg mb-6">
                   <img src={activeProfile.image} alt={activeProfile.name} className="w-full h-full object-cover object-top" />
                 </div>
@@ -71,7 +71,7 @@ export default function AdministrationPage() {
                 <div className="text-sm text-gray-500 mt-1">{activeProfile.body}</div>
               </div>
               
-              <div className="md:w-2/3 p-8 md:p-12 flex flex-col justify-center">
+              <div className="w-2/3 p-12 flex flex-col justify-center">
                 <UserCircle className="w-12 h-12 text-gray-200 mb-6" />
                 <p className="text-gray-600 text-lg leading-relaxed italic mb-8">
                   "{activeProfile.message}"

@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#111827] text-white pt-12 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center space-x-3 mb-6">
                <img src="https://placehold.co/100x100/1B5E20/white?text=GNP" alt="Logo" className="h-12 w-12 rounded-full bg-white p-1" />
@@ -65,9 +65,9 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+        <div className="border-t border-gray-800 pt-8 flex flex-row justify-between items-center text-sm text-gray-500">
           <p>© {new Date().getFullYear()} Godhani Nagar Panchayat. All rights reserved.</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
+          <div className="flex space-x-6 mt-0">
              <Link to="/privacy" className="hover:text-white">Privacy Policy</Link>
              <Link to="/terms" className="hover:text-white">Terms of Use</Link>
           </div>

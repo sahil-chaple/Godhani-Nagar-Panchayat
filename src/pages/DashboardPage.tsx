@@ -25,12 +25,12 @@ export default function DashboardPage() {
             <h1 className="text-3xl font-bold text-gray-900 mb-2">Overview Dashboard</h1>
             <p className="text-gray-500">Key statistics and complete civic overview of Godhani Nagar Panchayat.</p>
           </div>
-          <div className="text-sm text-gray-400 hidden md:block">
+          <div className="text-sm text-gray-400 block">
             Last Updated: {new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-4 gap-6">
           {cards.map((card, index) => {
             const Icon = card.icon;
             return (

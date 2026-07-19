@@ -23,7 +23,7 @@ export default function CitizenServicesPage() {
           <p className="text-gray-600">Access essential civic services from the comfort of your home.</p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-4 gap-6">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (

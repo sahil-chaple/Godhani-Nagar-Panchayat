@@ -34,8 +34,8 @@ export default function DownloadsPage() {
         </div>
 
         <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-6 md:p-8">
-          <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
-            <div className="flex flex-wrap gap-2 w-full md:w-auto">
+          <div className="flex flex-row justify-between items-center mb-8 gap-4">
+            <div className="flex flex-wrap gap-2 w-auto">
               {tabs.map((tab) => (
                 <button
                   key={tab}
@@ -51,7 +51,7 @@ export default function DownloadsPage() {
               ))}
             </div>
             
-            <div className="relative w-full md:w-64 shrink-0">
+            <div className="relative w-64 shrink-0">
               <input 
                 type="text" 
                 placeholder="Search files..."
@@ -71,7 +71,7 @@ export default function DownloadsPage() {
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3, delay: index * 0.05 }}
-                  className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 rounded-xl border border-gray-100 hover:border-primary/30 hover:bg-green-50/30 transition-all group gap-4"
+                  className="flex flex-row items-center justify-between p-4 rounded-xl border border-gray-100 hover:border-primary/30 hover:bg-green-50/30 transition-all group gap-4"
                 >
                   <div className="flex items-center flex-1">
                     <div className="w-10 h-10 bg-red-50 text-red-500 rounded-lg flex items-center justify-center mr-4 shrink-0 group-hover:scale-110 transition-transform">
@@ -85,7 +85,7 @@ export default function DownloadsPage() {
                       </p>
                     </div>
                   </div>
-                  <button className="w-full sm:w-auto px-6 py-2.5 bg-primary hover:bg-primary-dark text-white rounded-lg font-medium transition-colors flex items-center justify-center text-sm shadow-sm shrink-0">
+                  <button className="w-auto px-6 py-2.5 bg-primary hover:bg-primary-dark text-white rounded-lg font-medium transition-colors flex items-center justify-center text-sm shadow-sm shrink-0">
                     Download
                   </button>
                 </motion.div>

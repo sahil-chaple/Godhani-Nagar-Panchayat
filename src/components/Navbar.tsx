@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom';
-import { Menu, X, Search, Moon, Sun, Globe } from 'lucide-react';
+import { Search, Moon, Sun, Globe } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
   const [isDark, setIsDark] = useState(false);
 
   const links = [
@@ -31,7 +30,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="flex items-center space-x-4">
             {links.map((link) => (
               <Link
                 key={link.name}
@@ -54,35 +53,9 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-
-          <div className="flex items-center justify-center md:hidden">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-500 hover:text-primary focus:outline-none"
-            >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
-          </div>
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden bg-white shadow-lg border-t absolute w-full left-0 top-full z-[100]">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            {links.map((link) => (
-              <Link
-                key={link.name}
-                to={link.path}
-                onClick={() => setIsOpen(false)}
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-green-50"
-              >
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
     </nav>
   );
 }

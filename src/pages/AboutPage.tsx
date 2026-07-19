@@ -30,8 +30,8 @@ export default function AboutPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-12">
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
-          <div className="grid grid-cols-1 lg:grid-cols-2">
-            <div className="p-8 lg:p-12 flex flex-col justify-center">
+          <div className="grid grid-cols-2">
+            <div className="p-12 flex flex-col justify-center">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Journey & Heritage</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Godhani is a prominent railway station and a rapidly developing urban area located in the Nagpur district of Maharashtra. Once a serene village, it has now evolved into a bustling town owing to its strategic location and excellent connectivity to Nagpur city.
@@ -59,7 +59,7 @@ export default function AboutPage() {
               </div>
             </div>
             
-            <div className="relative h-64 md:h-96 lg:h-auto">
+            <div className="relative h-auto">
               <img 
                 src="https://images.unsplash.com/photo-1621360841013-c76831fdbcf5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
                 alt="Godhani Railway Station / Town" 
@@ -72,7 +72,7 @@ export default function AboutPage() {
         {/* Quick Facts Grid */}
         <div className="mt-12">
           <h3 className="text-2xl font-bold text-gray-900 mb-6 px-2">Demographics & Quick Facts</h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-5 gap-6">
             {quickFacts.map((fact, index) => {
               const Icon = fact.icon;
               return (

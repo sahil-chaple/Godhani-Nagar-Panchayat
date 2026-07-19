@@ -54,14 +54,14 @@ export default function ComplaintPortalPage() {
            <span className="text-gray-900 font-medium">Complaint Portal</span>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-12 bg-white rounded-3xl p-8 lg:p-12 shadow-sm border border-gray-100">
+        <div className="flex flex-row gap-12 bg-white rounded-3xl p-12 shadow-sm border border-gray-100">
           
-          <div className="flex-1 lg:max-w-2xl">
+          <div className="flex-1 max-w-2xl">
             <h1 className="text-3xl font-bold text-gray-900 mb-2">Lodge a Complaint</h1>
             <p className="text-gray-500 mb-8">We are here to help. Register your civic grievances and we will address them promptly.</p>
             
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
                   <input 
@@ -84,7 +84,7 @@ export default function ComplaintPortalPage() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">Ward No.</label>
                   <select 

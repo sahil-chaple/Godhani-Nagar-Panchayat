@@ -9,7 +9,7 @@ function StatCard({ label, value, suffix }: { label: string; value: number; suff
   const count = useCountUp(value, 2200, decimals);
   return (
     <div className="text-center">
-      <div className="text-2xl md:text-3xl font-bold text-gray-900 mb-1">
+      <div className="text-3xl font-bold text-gray-900 mb-1">
         {count}{suffix}
       </div>
       <div className="text-sm font-medium text-gray-500 uppercase tracking-wider">{label}</div>
@@ -38,7 +38,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* ─── Hero Section ─── */}
-      <section className="relative min-h-[90dvh] md:min-h-0 md:h-[600px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center scale-105"
           style={{
@@ -55,17 +55,17 @@ export default function HomePage() {
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <p className="text-base md:text-lg font-medium mb-2 opacity-80 tracking-widest uppercase mt-12 md:mt-0">
+            <p className="text-lg font-medium mb-2 opacity-80 tracking-widest uppercase mt-0">
               Welcome to
             </p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
+            <h1 className="text-6xl font-bold mb-4 leading-tight">
               Godhani Nagar<br />Panchayat
             </h1>
-            <p className="text-base sm:text-lg md:text-xl mb-8 opacity-85 max-w-2xl">
+            <p className="text-xl mb-8 opacity-85 max-w-2xl">
               Building a Clean, Green &amp; Digital Future — Together for a Developed Godhani.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <div className="flex flex-row gap-4 justify-center md:justify-start">
               <Link
                 to="/services"
                 className="bg-[#1B5E20] hover:bg-[#144c18] text-white px-8 py-4 rounded-xl font-semibold transition-all shadow-lg flex items-center justify-center gap-2"
@@ -90,7 +90,7 @@ export default function HomePage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="bg-white rounded-2xl shadow-xl p-6 md:p-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 divide-x divide-gray-100"
+          className="bg-white rounded-2xl shadow-xl p-6 md:p-8 grid grid-cols-6 gap-6 divide-x divide-gray-100"
         >
           {stats.map((stat) => (
             <StatCard key={stat.label} {...stat} />
@@ -104,7 +104,7 @@ export default function HomePage() {
           <h2 className="text-center text-xl font-semibold mb-8 opacity-90">
             Quick Online Services
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div className="grid grid-cols-5 gap-4">
             {quickServices.map((service, index) => {
               const Icon = service.icon;
               return (

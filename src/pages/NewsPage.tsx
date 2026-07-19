@@ -84,14 +84,14 @@ export default function NewsPage() {
                 initial={{ opacity: 0, x: -10 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.3, delay: index * 0.05 }}
-                className={`flex flex-col sm:flex-row p-6 hover:bg-green-50/60 transition-colors group ${index !== filteredNews.length - 1 ? 'border-b border-gray-100' : ''}`}
+                className={`flex flex-row p-6 hover:bg-green-50/60 transition-colors group ${index !== filteredNews.length - 1 ? 'border-b border-gray-100' : ''}`}
               >
-                <div className="sm:w-24 shrink-0 flex flex-col items-center sm:items-start mb-4 sm:mb-0">
+                <div className="w-24 shrink-0 flex flex-col items-start mb-0">
                   <div className="text-sm font-bold text-gray-500 uppercase tracking-wider">{item.date.split(' ')[1]}</div>
                   <div className="text-3xl font-black text-primary">{item.date.split(' ')[0]}</div>
                 </div>
                 
-                <div className="flex-1 sm:pl-6 sm:border-l border-green-100">
+                <div className="flex-1 pl-6 border-l border-green-100">
                   <div className="flex items-center gap-3 mb-2">
                     <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary transition-colors">{item.title}</h3>
                     <span className="px-2.5 py-0.5 bg-gray-100 text-gray-600 text-[10px] uppercase font-bold tracking-wider rounded-sm shrink-0">
