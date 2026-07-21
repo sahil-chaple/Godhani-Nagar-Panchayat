@@ -2,7 +2,7 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
+import aerialImage from "./assets/Godhani Village Aerial View.png";
 import React, { useState, useEffect } from 'react';
 import {
   Home as HomeIcon,
@@ -301,11 +301,10 @@ export default function App() {
                 <div className="relative rounded-3xl overflow-hidden h-[450px] md:h-[500px] flex items-center shadow-md">
                   {/* Drone Image of green rural Indian village suburbs with overlays */}
                   <img
-                    src="./Godhani Village Aerial View.png"
-                    alt="Godhani Village Aerial View"
-                    referrerPolicy="no-referrer"
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
+  src={aerialImage}
+  alt="Godhani Village Aerial View"
+  className="absolute inset-0 w-full h-full object-cover"
+/>
                   {/* Vignette Gradients */}
                   <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-transparent"></div>
                   <div className="absolute inset-0 bg-gradient-to-t from-red-950/25 to-transparent"></div>
