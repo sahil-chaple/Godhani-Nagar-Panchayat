@@ -165,7 +165,7 @@ export default function App() {
                 {/* Government Seal Icon Placeholder */}
                 <Landmark className="w-6 h-6" />
               </div>
-              
+
               <div>
                 <h1 className="text-base md:text-lg font-extrabold text-[#ffbc3f] dark:text-[#ffbc3f] leading-none uppercase tracking-tight">
                   Godhani Nagar
@@ -301,7 +301,7 @@ export default function App() {
                 <div className="relative rounded-3xl overflow-hidden h-[450px] md:h-[500px] flex items-center shadow-md">
                   {/* Drone Image of green rural Indian village suburbs with overlays */}
                   <img
-                    src="Godhani Village Aerial View.png"
+                    src="./Godhani Village Aerial View.png"
                     alt="Godhani Village Aerial View"
                     referrerPolicy="no-referrer"
                     className="absolute inset-0 w-full h-full object-cover"
