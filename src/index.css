@@ -1,24 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #1B5E20;
-  --color-primary-dark: #144c18;
-  --color-secondary: #2E7D32;
-  --color-accent: #4CAF50;
-  --color-success: #16A34A;
-  --color-warning: #F59E0B;
-  --color-danger: #DC2626;
-
-  --font-sans: 'Poppins', 'Inter', sans-serif;
+  --font-sans: "Poppins", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 }
 
-@layer base {
-  body {
-    background-color: #F8FAFC;
-    color: #111827;
-    font-family: 'Poppins', 'Inter', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+/* Custom scrollbar to match the vintage warm theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF9F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4C1B0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #800000;
 }
 

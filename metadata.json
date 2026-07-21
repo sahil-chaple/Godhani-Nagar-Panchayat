@@ -1,0 +1,6 @@
+{
+  "name": "Godhani Nagar Panchayat Portal",
+  "description": "Premium digital government services and information portal for Godhani Nagar Panchayat, Nagpur, Maharashtra.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
