@@ -41,7 +41,7 @@ import {
   Trash
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-
+import { Analytics } from "@vercel/analytics/next"
 // Custom sub-components
 import InteractiveMap from './components/InteractiveMap';
 import ComplaintForm from './components/ComplaintForm';
