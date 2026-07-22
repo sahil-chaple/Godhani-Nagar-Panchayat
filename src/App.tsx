@@ -152,6 +152,7 @@ export default function App() {
   };
 
   return (
+    
     <div className={`min-h-screen transition-colors duration-300 font-sans ${darkMode ? 'bg-slate-950 text-slate-100' : 'bg-[#d4d4d0] text-gray-900'}`}>
       
 
@@ -1220,6 +1221,7 @@ export default function App() {
         )}
       </AnimatePresence>
 
+      <Analytics />
     </div>
   );
 }
