@@ -391,66 +391,126 @@ export const MAP_MARKERS: MapMarker[] = [
     id: 'm-1',
     name: 'Nagar Panchayat Office',
     category: 'Office',
-    lat: 35,
-    lng: 40,
+    latitude: 21.22126008871609,
+    longitude: 79.06157403054257,
+    googleMapsUrl: "https://maps.app.goo.gl/R5vagVZkh5SVtUPN8",
+
     description: 'Main Administrative Building, Citizen Services Windows, and Council Hall.'
   },
   {
     id: 'm-2',
-    name: 'Zilla Parishad Primary School',
+    name: 'Dolphine School',
     category: 'School',
-    lat: 25,
-    lng: 20,
+    latitude: 21.223356441339217,
+    longitude: 79.06132399957778,
+    googleMapsUrl: "https://maps.app.goo.gl/HvqdttaMJp17dVCt5",
+
     description: 'Primary school with smart digital classrooms and children garden.'
   },
   {
     id: 'm-3',
-    name: 'Primary Health Center (PHC)',
+    name: 'Manasvi Multispecility Hospital & Nursing Home Run By BBS Health Care',
     category: 'Hospital',
-    lat: 55,
-    lng: 60,
+    latitude: 21.216823438698373,
+    longitude: 79.0634303355682,
+    googleMapsUrl: "https://maps.app.goo.gl/WruyF7kXaCGfD7Pe6",
+
+    description: '24/7 Outpatient assistance, maternity care, and diagnostic facilities.'
+  }, {
+    id: 'm-12',
+    name: 'Sanjeevani Multispeciality Hospital',
+    category: 'Hospital',
+    latitude: 21.212065191118377,
+    longitude: 79.06495966729544,
+    googleMapsUrl: "https://maps.app.goo.gl/s2QM7bEg318B7HNJ8",
+
     description: '24/7 Outpatient assistance, maternity care, and diagnostic facilities.'
   },
+  {
+    id: 'm-13',
+    name: 'GAYAKWAD HOSPITAL & NETRALAYA',
+    category: 'Hospital',
+    latitude: 21.21520738089755,
+    longitude: 79.06302100803094,
+    googleMapsUrl: "https://maps.app.goo.gl/etSARHiyXwm3qmP58",
+
+    description: '24/7 Outpatient assistance, maternity care, and diagnostic facilities.'
+  },
+
   {
     id: 'm-4',
     name: 'Godhani Railway Station',
     category: 'Railway',
-    lat: 15,
-    lng: 75,
-    description: 'GGDHANI Railway junction providing local sub-urban connections.'
+    latitude: 21.21625,
+    longitude: 79.09115,
+    googleMapsUrl: "https://maps.app.goo.gl/bfJraqXAALbnbrTz9",
+
+    description: 'GODHANI Railway junction providing local sub-urban connections.'
   },
   {
     id: 'm-5',
     name: 'Bank of India - Godhani Branch',
     category: 'Bank',
-    lat: 42,
-    lng: 30,
+    latitude: 21.21800,
+    longitude: 79.08800,
+    googleMapsUrl: "https://maps.app.goo.gl/bfJraqXAALbnbrTz9",
     description: 'Full-service public sector bank branch and 24-hour ATM counter.'
   },
   {
     id: 'm-6',
     name: 'Hanuman Mandir & Temple Ground',
     category: 'Temple',
-    lat: 70,
-    lng: 45,
+    latitude: 21.21950,
+    longitude: 79.08990,
+    googleMapsUrl: "https://maps.app.goo.gl/bfJraqXAALbnbrTz9",
     description: 'Historic cultural sanctuary and community playground site.'
   },
   {
     id: 'm-7',
     name: 'Main Bus Stop',
     category: 'BusStop',
-    lat: 48,
-    lng: 50,
+    latitude: 21.21750,
+    longitude: 79.08995,
+    googleMapsUrl: "https://maps.app.goo.gl/bfJraqXAALbnbrTz9",
     description: 'Direct transit connecting to Nagpur Central Stand and Rural areas.'
   },
   {
     id: 'm-8',
     name: 'Ambedkar Park & Joggers Track',
     category: 'Park',
-    lat: 30,
-    lng: 65,
+    latitude: 21.22010,
+    longitude: 79.09050,
+    googleMapsUrl: "https://maps.app.goo.gl/bfJraqXAALbnbrTz9",
     description: 'Lush green public park with concrete walking trail and open-air gym.'
-  }
+  },
+  {
+    id: 'm-9',
+    name: 'Podar International School (CBSE)',
+    category: 'School',
+    latitude: 21.226022759595107,
+    longitude: 79.06217076976591,
+    googleMapsUrl: "https://maps.app.goo.gl/679JAKPqqwRSojmd8",
+    description: 'School with smart digital classrooms and children garden.'
+  },
+  {
+    id: 'm-10',
+    name: 'Dr.T.S WILKINSON SCHOOL',
+    category: 'School',
+    latitude: 21.217179955006074,
+    longitude: 79.0605964586168,
+    googleMapsUrl: "https://maps.app.goo.gl/aQELREi2DRq6KPgy5",
+    description: 'School with smart digital classrooms and children garden.'
+  },
+  {
+    id: 'm-11',
+    name: 'Anganwadi Godhani',
+    category: 'School',
+    latitude: 21.220733988367687,
+    longitude: 79.06226005873114,
+    googleMapsUrl: "https://maps.app.goo.gl/BHjpeZFBYBhs27nw9",
+    description: 'School with smart digital classrooms and children garden.'
+  },
+
 ];
 
 export const MARATHI_STRINGS: LanguageStrings = {

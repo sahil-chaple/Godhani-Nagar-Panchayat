@@ -97,8 +97,10 @@ export interface MapMarker {
   id: string;
   name: string;
   category: 'Office' | 'School' | 'Hospital' | 'Railway' | 'Bank' | 'Temple' | 'BusStop' | 'Park';
-  lat: number; // For visualization or custom map coordinates
-  lng: number;
+  latitude: number;
+  longitude: number;
+  googleMapsUrl: string;
+
   description: string;
 }
 
